@@ -1,0 +1,24 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ferlores/nvm/v0.8.3/bin/node',
+1 verbose cli   '/home/ferlores/nvm/v0.8.3/bin/npm',
+1 verbose cli   'test' ]
+2 info using npm@1.1.43
+3 info using node@v0.8.3
+4 verbose config file /home/ferlores/.npmrc
+5 verbose config file /home/ferlores/nvm/v0.8.3/etc/npmrc
+6 verbose config file /home/ferlores/nvm/v0.8.3/lib/node_modules/npm/npmrc
+7 verbose read json /home/ferlores/Documents/node/node-scrumy/tests/package.json
+8 error Error: ENOENT, open '/home/ferlores/Documents/node/node-scrumy/tests/package.json'
+9 error If you need help, you may report this log at:
+9 error     <http://github.com/isaacs/npm/issues>
+9 error or email it to:
+9 error     <npm-@googlegroups.com>
+10 error System Linux 3.2.0-27-generic-pae
+11 error command "/home/ferlores/nvm/v0.8.3/bin/node" "/home/ferlores/nvm/v0.8.3/bin/npm" "test"
+12 error cwd /home/ferlores/Documents/node/node-scrumy/tests
+13 error node -v v0.8.3
+14 error npm -v 1.1.43
+15 error path /home/ferlores/Documents/node/node-scrumy/tests/package.json
+16 error code ENOENT
+17 error errno 34
+18 verbose exit [ 34, true ]
