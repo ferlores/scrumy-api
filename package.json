@@ -4,7 +4,9 @@
   "description": "Scrumy API wrapper for nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/test.js --timeout 4000 -R spec"
+    "test": "mocha -R spec",
+    "cov-report": "SCRUMY_COV=1 && mocha -R html-cov > test/coverage.html",
+    "jscov": "rm -rf lib-cov && jscoverage lib lib-cov"
   },
   "repository": {
     "type": "git",
