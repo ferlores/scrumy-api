@@ -4,8 +4,8 @@
   "description": "Scrumy API wrapper for nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec",
-    "cov-report": "SCRUMY_COV=1 && mocha -R html-cov > test/coverage.html",
+    "test": "node_modules/.bin/mocha -R spec",
+    "cov-report": "SCRUMY_COV=1 && node_modules/.bin/mocha -R html-cov > test/coverage.html",
     "jscov": "rm -rf lib-cov && jscoverage lib lib-cov"
   },
   "repository": {
@@ -22,6 +22,7 @@
     "request": "~2.10.0"
   },
   "devDependencies": {
-    "assert": "~0.4.9"
+    "assert": "~0.4.9",
+    "mocha": "~1.3.2"
   }
 }
