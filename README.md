@@ -3,7 +3,7 @@ Simple wrapper for [scrumy api](http://apidoc.scrumy.com/wiki/show/REST+API). Fo
 
 ## Instalation
 ```
-npm install node-scrumy
+npm install scrumy-api
 ```
 
 ## Usage
