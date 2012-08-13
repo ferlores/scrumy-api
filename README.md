@@ -61,3 +61,6 @@ var scrumy = new Scrumy('board', 'secret')
 * ```npm run-script jscov```
 * ```npm run-script cov-report```
 * ```chromium-browser test/coverage.html```
+
+## License
+MIT
