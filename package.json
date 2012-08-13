@@ -1,6 +1,6 @@
 {
-  "name": "node-scrumy",
-  "version": "0.0.0",
+  "name": "scrumy-api",
+  "version": "0.0.1",
   "description": "Scrumy API wrapper for nodejs",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "some"
+    "url": "https://github.com/ferlores/scrumy-api"
   },
   "keywords": [
     "scrumy",
